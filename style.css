@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: hsl(27, 66%, 92%);
+  font-family: "DM Sans", sans-serif;
+}
+section {
+  min-height: 97vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+canvas {
+  cursor: pointer;
+}
+.container {
+  width: 90%;
+  max-width: 400px;
+  border-radius: 8px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.top-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(10, 79%, 65%);
+  padding: 0.7rem;
+  border-radius: 10px;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+.top-sec p {
+  font-size: 20px;
+  font-weight: 700;
+}
+small {
+  color: rgb(143, 140, 140);
+}
+.top-sec .logo {
+  max-width: 40px;
+}
+img {
+  width: 100%;
+}
+
+.bottom-sec {
+  background: hsl(33, 100%, 98%);
+  padding: 0.7rem;
+  border-radius: 10px;
+}
+.line {
+  border: 0.1px solid hsl(27, 66%, 92%);
+  margin-top: 0.9rem;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+.amount p {
+  font-size: 28px;
+  font-weight: 700;
+}
+.percent p {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: right;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
